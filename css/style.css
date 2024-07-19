@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 
-*{ 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-main{
+
+main {
     background-color: #e7e7e7;
 }
 
-body{
+body {
     background-color: #e7e7e7;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -45,7 +46,7 @@ header nav div ul {
     align-items: center;
 }
 
-header nav div ul li{
+header nav div ul li {
     margin-right: 20px;
     font-size: 16px;
 }
@@ -60,14 +61,14 @@ header nav div ul li a {
     margin: 0 10px 20px 10px;
 }
 
-header nav div ul li a:hover{
+header nav div ul li a:hover {
     text-decoration: underline;
     text-decoration-color: #6356fe;
     text-decoration-thickness: 2px;
     text-underline-offset: 8px;
 }
 
-.d-flex button{
+.d-flex button {
     list-style: none;
     color: #6356fe;
     text-decoration: none;
@@ -84,7 +85,7 @@ header nav div ul li a:hover{
     margin: 40px;
 }
 
-.d-flex button:hover{
+.d-flex button:hover {
     color: #e7e7e7;
     background-color: #6356fe;
 }
@@ -94,7 +95,7 @@ header nav div ul li a:hover{
 
 /*INICIO INDEX*/
 
-.principal{
+.principal {
     position: relative;
     max-width: 95%;
     height: 85vh;
@@ -111,14 +112,14 @@ header nav div ul li a:hover{
 }
 
 
-.principaldiv-uno{
+.principaldiv-uno {
     position: relative;
     border-radius: 30px;
     overflow: hidden;
 }
 
 
-.principal h1{
+.principal h1 {
     color: #eeeeee;
     font-family: "Outfit", sans-serif;
     font-size: 11.25rem;
@@ -127,12 +128,12 @@ header nav div ul li a:hover{
     margin: 70px 0 20px 60px;
 }
 
-.principal h1:hover span{
+.principal h1:hover span {
     color: #6356fe;
 }
 
 
-.principaldiv-uno img{
+.principaldiv-uno img {
     width: 100%;
     display: block;
     object-fit: cover;
@@ -154,7 +155,7 @@ header nav div ul li a:hover{
     color: #e7e7e7;
 }
 
-.principal a{
+.principal a {
     color: #e7e7e7;
     display: block;
     text-decoration: none;
@@ -169,11 +170,11 @@ header nav div ul li a:hover{
     margin: 20px 0 0px 70px;
 }
 
-.principal a:hover{
+.principal a:hover {
     background-color: #8f85ff;
 }
 
-.secundaria{
+.secundaria {
     width: 100%;
     height: auto;
     font-family: "Outfit", sans-serif;
@@ -187,7 +188,7 @@ header nav div ul li a:hover{
 }
 
 
-.servicios{
+.servicios {
     font-family: "Outfit", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -200,7 +201,7 @@ header nav div ul li a:hover{
 }
 
 
-.servicios h2{
+.servicios h2 {
     font-family: "Outfit", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -209,14 +210,14 @@ header nav div ul li a:hover{
     margin-bottom: 10px;
 }
 
-.servicios p{
+.servicios p {
     font-family: "Outfit", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
 }
 
-.servicios-elegir{
+.servicios-elegir {
     max-width: 100%;
     width: 100%;
     display: block;
@@ -231,7 +232,7 @@ header nav div ul li a:hover{
 }
 
 
-.servicios-elegir h3{
+.servicios-elegir h3 {
     font-family: "Outfit", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -241,11 +242,11 @@ header nav div ul li a:hover{
     margin-bottom: 5px;
 }
 
-.servicios-elegir p{
+.servicios-elegir p {
     padding: 0 20px 20px 20px;
 }
 
-.servicios-elegir img{
+.servicios-elegir img {
     width: 400px;
     height: 350px;
     object-fit: cover;
@@ -253,7 +254,7 @@ header nav div ul li a:hover{
     position: initial;
 }
 
-.servicios-esculpidas{
+.servicios-esculpidas {
     width: 400px;
     height: 550px;
     color: #161616;
@@ -266,12 +267,12 @@ header nav div ul li a:hover{
     margin-bottom: 20px;
 }
 
-.servicios-esculpidas:hover{
+.servicios-esculpidas:hover {
     color: #e7e7e7;
     background-color: #161616d0;
 }
 
-.servicios-capping{
+.servicios-capping {
     width: 400px;
     height: 550px;
     color: #161616;
@@ -284,12 +285,12 @@ header nav div ul li a:hover{
     margin-bottom: 20px;
 }
 
-.servicios-capping:hover{
+.servicios-capping:hover {
     color: #e7e7e7;
     background-color: #161616d0;
 }
 
-.servicios-semipermanente{
+.servicios-semipermanente {
     width: 400px;
     height: 550px;
     color: #161616;
@@ -302,12 +303,12 @@ header nav div ul li a:hover{
     margin-bottom: 20px;
 }
 
-.servicios-semipermanente:hover{
+.servicios-semipermanente:hover {
     color: #e7e7e7;
     background-color: #161616d0;
 }
 
-.secundaria a{
+.secundaria a {
     list-style: none;
     color: #6356fe;
     text-decoration: none;
@@ -323,13 +324,13 @@ header nav div ul li a:hover{
     padding: 10px 50px;
 }
 
-.secundaria a:hover{
+.secundaria a:hover {
     color: #e7e7e7;
-    background-color: #6356fe; 
+    background-color: #6356fe;
 }
 
 
-.grid-galeria{
+.grid-galeria {
     width: 100%;
     margin-top: 0px;
     height: 100%;
@@ -341,12 +342,12 @@ header nav div ul li a:hover{
     padding: 60px 50px;
 }
 
-.grid-galeria div{
+.grid-galeria div {
     width: 100%;
     height: 100%;
 }
 
-.grid-galeria div img{
+.grid-galeria div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -354,20 +355,20 @@ header nav div ul li a:hover{
     filter: brightness(50%);
 }
 
-.grid-galeria div img:hover{
+.grid-galeria div img:hover {
     filter: brightness(1);
 }
 
-.item-uno-principal{
+.item-uno-principal {
     grid-column: span 2;
 }
 
-.item-cuatro-principal{
+.item-cuatro-principal {
     grid-column: span 2;
 }
 
 
-.banner-zapas{
+.banner-zapas {
     width: 100%;
     height: calc(100vh - 200px);
     background-image: url(../img/zapaswebp.webp);
@@ -378,12 +379,12 @@ header nav div ul li a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 /*****COMIENZO DE TESTIMONIOSSSSSSS*****/
 
-.testimonios{
+.testimonios {
     width: 100%;
     height: 70vh;
     background-color: #2d2d2d0c;
@@ -393,8 +394,8 @@ header nav div ul li a:hover{
     align-items: center;
 }
 
-.tarjeta{
-    width: 100% ;
+.tarjeta {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -402,14 +403,14 @@ header nav div ul li a:hover{
     flex-wrap: wrap;
 }
 
-.card-cuerpo{
+.card-cuerpo {
     width: 300px;
     height: 450px;
     background-color: #2d2d2d00;
     align-items: center;
 }
 
-.card-cuerpo hr{
+.card-cuerpo hr {
     width: 40%;
     margin: 30px auto;
     color: #6356fe;
@@ -417,7 +418,7 @@ header nav div ul li a:hover{
     opacity: 100%;
 }
 
-.testimonios img{
+.testimonios img {
     width: 200px;
     height: 200px;
     border-radius: 100px;
@@ -426,7 +427,7 @@ header nav div ul li a:hover{
 }
 
 
-.testimonios h5{
+.testimonios h5 {
     margin-top: 10px;
     font-family: "Outfit", sans-serif;
     font-weight: 500;
@@ -435,7 +436,7 @@ header nav div ul li a:hover{
 }
 
 
-.testimonios p{
+.testimonios p {
     margin-top: 10px;
     font-family: "Outfit", sans-serif;
     font-weight: 400;
@@ -444,14 +445,14 @@ header nav div ul li a:hover{
 }
 
 
-.banner-press{
+.banner-press {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px 0 40px 0;
 }
 
-.banner-press img{
+.banner-press img {
     width: 30%;
     height: 600px;
     border-radius: 30px;
@@ -459,15 +460,15 @@ header nav div ul li a:hover{
     object-fit: cover;
 }
 
-.banner-press div{
+.banner-press div {
     width: auto;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
 }
 
-.banner-press h3{
+.banner-press h3 {
     font-family: "Outfit", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -478,7 +479,7 @@ header nav div ul li a:hover{
     line-height: 1;
 }
 
-.banner-press p{
+.banner-press p {
     font-family: "Outfit", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -488,7 +489,7 @@ header nav div ul li a:hover{
     text-align: left;
 }
 
-.banner-press a{
+.banner-press a {
     list-style: none;
     color: #6356fe;
     text-decoration: none;
@@ -505,7 +506,7 @@ header nav div ul li a:hover{
     margin-top: 20px;
 }
 
-.banner-press a:hover{
+.banner-press a:hover {
     color: #e7e7e7;
     background-color: #6356fe;
 }
@@ -513,34 +514,34 @@ header nav div ul li a:hover{
 
 
 /*FOOTER*/
-footer{
+footer {
     background-color: #eeeeee;
 }
 
-.bi-instagram{
+.bi-instagram {
     color: #2d2d2d;
     font-size: 30px;
     margin: 10px;
 }
 
-.bi-instagram:hover{
+.bi-instagram:hover {
     color: #6356fe;
     font-size: 30px;
 }
 
-.bi-tiktok{
+.bi-tiktok {
     color: #2d2d2d;
     font-size: 30px;
     margin: 10px;
 }
 
-.bi-tiktok:hover{
+.bi-tiktok:hover {
     color: #6356fe;
     font-size: 30px;
 }
 
 
-.redes img{
+.redes img {
     width: 40px;
     height: 40px;
     background-color: #7e7e7e;
@@ -550,32 +551,32 @@ footer{
     padding: 10px;
 }
 
-.redes img:hover{
+.redes img:hover {
     opacity: 50%;
 }
 
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 35px 0;    
+    padding: 35px 0;
 }
 
-.logo-footer img{
+.logo-footer img {
     width: 150px;
     height: 150px;
     text-align: center;
 }
 
-.menu-footer{
+.menu-footer {
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: start;
 }
 
-.menu-footer li a{
+.menu-footer li a {
     text-decoration: none;
     color: #161616;
     font-family: "Outfit", sans-serif;
@@ -586,9 +587,11 @@ footer{
     font-size: 15 px;
 }
 
-.menu-footer li a:hover{
+.menu-footer li a:hover {
     color: #8f85ff;
 }
+
+/*FIN FOOTER*/
 
 /*FIN INDEX*/
 
@@ -596,10 +599,11 @@ footer{
 /*MEDIA QUERYS INDEX*/
 
 @media screen and (max-width: 1015px) {
-    .principaldiv-dos h1{
+    .principaldiv-dos h1 {
         font-size: 10rem;
     }
-    .principal h1{
+
+    .principal h1 {
         color: #eeeeee;
         font-family: "Outfit", sans-serif;
         font-size: 8rem;
@@ -608,26 +612,27 @@ footer{
         margin: 0 20px;
     }
 
-    .principaldiv-uno img{
+    .principaldiv-uno img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         border-radius: 15px;
         filter: saturate(0);
     }
-    .principaldiv-dos{
+
+    .principaldiv-dos {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .principal a{
+    .principal a {
         font-size: 1rem;
         margin: 20px 0;
     }
-    
-    .principal{
+
+    .principal {
         width: 100%;
         height: 80vh;
         display: flex;
@@ -639,21 +644,21 @@ footer{
 }
 
 @media screen and (max-width: 900px) {
-    .testimonios{
+    .testimonios {
         display: none;
     }
 }
 
 @media screen and (max-width: 865px) {
-    .principal{
+    .principal {
         height: 60vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
-    .principal h1{
+
+    .principal h1 {
         color: #eeeeee;
         font-family: "Outfit", sans-serif;
         font-size: 8rem;
@@ -662,28 +667,29 @@ footer{
         margin: 0 20px;
     }
 
-    .principaldiv-uno img{
+    .principaldiv-uno img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         border-radius: 15px;
         filter: saturate(0);
     }
-    .principaldiv-dos{
+
+    .principaldiv-dos {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .principal a{
+    .principal a {
         font-size: 1rem;
         margin: 20px 0;
     }
 }
 
 @media screen and (max-width: 780px) {
-    .banner-press{
+    .banner-press {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -691,19 +697,19 @@ footer{
         padding: 40px 0 40px 0;
     }
 
-    .banner-press img{
+    .banner-press img {
         width: 85%;
     }
 
-    .banner-press div{
+    .banner-press div {
         width: auto;
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
-    .banner-press h3{
+
+    .banner-press h3 {
         font-family: "Outfit", sans-serif;
         font-weight: 600;
         font-style: normal;
@@ -713,8 +719,8 @@ footer{
         text-align: center;
         line-height: 1;
     }
-    
-    .banner-press p{
+
+    .banner-press p {
         font-family: "Outfit", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -723,8 +729,8 @@ footer{
         margin-top: 10px;
         text-align: center;
     }
-    
-    .banner-press a{
+
+    .banner-press a {
         list-style: none;
         color: #6356fe;
         text-decoration: none;
@@ -743,8 +749,8 @@ footer{
 
 }
 
-@media screen and (min-width: 350px) and (max-width: 681px){
-    .principal h1{
+@media screen and (min-width: 350px) and (max-width: 681px) {
+    .principal h1 {
         color: #eeeeee;
         font-family: "Outfit", sans-serif;
         font-size: 6rem;
@@ -753,26 +759,27 @@ footer{
         margin: 0 20px;
     }
 
-    .principaldiv-uno img{
+    .principaldiv-uno img {
         width: 100%;
         height: 650px;
         object-fit: cover;
         border-radius: 15px;
         filter: saturate(0);
     }
-    .principaldiv-dos{
+
+    .principaldiv-dos {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .principal a{
+    .principal a {
         font-size: 1rem;
         margin: 20px 0;
     }
-    
-    .principal{
+
+    .principal {
         width: 100%;
         height: 80vh;
         display: flex;
@@ -783,11 +790,88 @@ footer{
 
 }
 
+@media screen and (max-width: 400px) {
+    .principal h1 {
+        color: #eeeeee;
+        font-family: "Outfit", sans-serif;
+        font-size: 3rem;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0 20px;
+    }
 
+    .principaldiv-uno img {
+        width: 100%;
+        height: 650px;
+        object-fit: cover;
+        border-radius: 15px;
+        filter: saturate(0);
+    }
+
+    .principaldiv-dos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .principal a {
+        font-size: 1rem;
+        margin: 20px 0;
+    }
+
+    .principal {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 681px) {
+    .servicios-elegir img {
+        width: 300px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 30px;
+        position: initial;
+    }
+
+    .servicios-esculpidas {
+        width: 300px;
+        height: 550px;
+    }
+
+    .servicios-capping {
+        width: 300px;
+        height: 550px;
+    }
+
+    .servicios-semipermanente {
+        width: 300px;
+        height: 550px;
+    }
+
+    .servicios-elegir h3 {
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 2rem;
+        padding: 0 20px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+}
+
+/*FIN MEDIA QUERYS INDEX*/
 
 /*INICIO TRABAJOS*/
 
-.principal-trabajos{
+.principal-trabajos {
     max-width: 95%;
     height: 20vh;
     background-color: #e7e7e7;
@@ -800,7 +884,7 @@ footer{
 }
 
 
-.principal-trabajos img{
+.principal-trabajos img {
     position: relative;
     width: 100%;
     height: 100%;
@@ -811,7 +895,7 @@ footer{
     filter: brightness(20%);
 }
 
-.principal-trabajos h1{
+.principal-trabajos h1 {
     position: absolute;
     color: #eeeeee;
     font-family: "Outfit", sans-serif;
@@ -820,7 +904,7 @@ footer{
     font-style: normal;
 }
 
-.persona-uno h2{
+.persona-uno h2 {
     color: #161616;
     font-family: "Outfit", sans-serif;
     font-size: 40px;
@@ -836,14 +920,14 @@ footer{
     justify-content: center;
 }
 
-.turno-ro div{
+.turno-ro div {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.turno-ro a{
+.turno-ro a {
     list-style: none;
     display: inline-block;
     color: #6356fe;
@@ -860,12 +944,12 @@ footer{
     padding: 10px 50px;
 }
 
-.turno-ro a:hover{
+.turno-ro a:hover {
     color: #e7e7e7;
-    background-color: #6356fe; 
+    background-color: #6356fe;
 }
 
-.persona-dos h2{
+.persona-dos h2 {
     color: #161616;
     font-family: "Outfit", sans-serif;
     font-size: 40px;
@@ -881,14 +965,14 @@ footer{
     justify-content: center;
 }
 
-.turno-mar div{
+.turno-mar div {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.turno-mar a{
+.turno-mar a {
     list-style: none;
     display: inline-block;
     color: #6356fe;
@@ -906,13 +990,13 @@ footer{
     margin-bottom: 20px;
 }
 
-.turno-mar a:hover{
+.turno-mar a:hover {
     color: #e7e7e7;
-    background-color: #6356fe; 
+    background-color: #6356fe;
 }
 
 
-.grid-galeria-trabajos{
+.grid-galeria-trabajos {
     width: 100%;
     margin-top: 0px;
     height: 100%;
@@ -924,43 +1008,43 @@ footer{
     padding: 20px 50px;
 }
 
-.grid-galeria-trabajos div{
+.grid-galeria-trabajos div {
     width: 100%;
     height: 100%;
 }
 
-.grid-galeria-trabajos div img{
+.grid-galeria-trabajos div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
 }
 
-.item-uno{
+.item-uno {
     grid-column: span 2;
 }
 
-.item-tres{
+.item-tres {
     grid-row: span 2;
 }
 
-.item-cuatro{
+.item-cuatro {
     grid-column: span 1;
 }
 
-.item-cinco{
+.item-cinco {
     grid-column: span 2;
 }
 
-.item-seis{
+.item-seis {
     grid-row: span 2;
 }
 
-.item-ocho{
+.item-ocho {
     grid-column: span 2;
 }
 
-.item-nueve{
+.item-nueve {
     grid-column: span 2;
 }
 
@@ -968,9 +1052,9 @@ footer{
 /*INICIO QUIENES SOMOS*/
 
 /*PARTE ROSARIO*/
-.quienessomos-ro{
+.quienessomos-ro {
     width: 100%;
-    height: 80vh;
+    min-height: 80vh;
     display: flex;
     background-color: #e7e7e7;
     flex-direction: row;
@@ -979,39 +1063,42 @@ footer{
     margin: 30px 0px;
 }
 
-.foto-ro img{
+
+.foto-ro img {
     width: 600px;
     height: 550px;
     object-fit: cover;
     border-radius: 30px;
 }
 
-.perfil-ro{
+.perfil-ro {
     display: flex;
     flex-direction: column;
+    
 }
 
-.perfil-ro h2{
+.perfil-ro h2 {
     color: #6356fe;
     font-family: "Outfit", sans-serif;
     font-size: 12rem;
     font-weight: 600;
     font-style: normal;
     letter-spacing: -0.5rem;
-    margin: auto;
+    margin: 20px 0;
+    text-align: center;
 }
 
-.perfil-ro p{
+.perfil-ro p {
     color: #161616;
     font-family: "Outfit", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     font-style: normal;
-    padding-left: 12px;
+    padding: 12px;
     margin: 0;
 }
 
-.ver-trabajos{
+.ver-trabajos {
     width: 30%;
     color: #e7e7e7;
     display: inline-block;
@@ -1026,21 +1113,43 @@ footer{
     text-align: center;
 }
 
-.ver-trabajos:hover{
+.ver-trabajos:hover {
     background-color: #8f85ff;
 }
 
-.info-ro{
+.info-ro {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 20px;
 }
 
+@media screen and (max-width: 1510px) {
+    .quienessomos-ro {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .perfil-ro h2 {
+        font-size: 8rem;
+    }
+
+    .info-ro {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
 /*PARTE MARTINA*/
-.quienessomos-mar{
+.quienessomos-mar {
     width: 100%;
-    height: 80vh;
+    min-height: 80vh;
     display: flex;
     background-color: #e7e7e7;
     flex-direction: row;
@@ -1049,7 +1158,7 @@ footer{
     margin: 30px 0px;
 }
 
-.foto-mar img{
+.foto-mar img {
     width: 600px;
     height: 550px;
     object-fit: cover;
@@ -1057,34 +1166,35 @@ footer{
     object-position: top;
 }
 
-.perfil-mar{
+.perfil-mar {
     display: flex;
     flex-direction: column;
     align-items: end;
 }
 
-.perfil-mar h3{
+.perfil-mar h3 {
     color: #6356fe;
     font-family: "Outfit", sans-serif;
     font-size: 12rem;
     font-weight: 600;
     font-style: normal;
     letter-spacing: -0.5rem;
-    margin: auto;
+    margin: 20px 0;
+    text-align: center;
 }
 
-.perfil-mar p{
+.perfil-mar p {
     color: #161616;
     font-family: "Outfit", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     font-style: normal;
-    padding-left: 12px;
+    padding: 12px;
     margin: 0;
     text-align: end;
 }
 
-.ver-trabajos{
+.ver-trabajos {
     width: 30%;
     color: #e7e7e7;
     display: inline-block;
@@ -1099,11 +1209,11 @@ footer{
     text-align: center;
 }
 
-.ver-trabajos:hover{
+.ver-trabajos:hover {
     background-color: #8f85ff;
 }
 
-.info-mar{
+.info-mar {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -1111,13 +1221,50 @@ footer{
     justify-content: end;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 1510px) {
+    .quienessomos-mar {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        margin: 30px 0; 
+    }
+
+    .perfil-mar h3 {
+        color: #6356fe;
+        font-family: "Outfit", sans-serif;
+        font-size: 8rem;
+        text-align: center;
+    }
+
+    .info-mar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .perfil-mar p {
+        color: #161616;
+        font-family: "Outfit", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        font-style: normal;
+        padding: 12px;
+        margin: 0;
+        text-align: center;
+    }
+}
+
 /*FIN ROSARIO Y MARTINA*/
 
-.gift-card{
+.gift-card {
     text-align: center;
 }
 
-.gift-card h4{
+.gift-card h4 {
     color: #161616;
     font-family: "Outfit", sans-serif;
     font-size: 3rem;
@@ -1126,7 +1273,7 @@ footer{
     margin: 10px 0;
 }
 
-.gift-card p{
+.gift-card p {
     color: #161616;
     font-family: "Outfit", sans-serif;
     font-size: 1rem;
@@ -1140,14 +1287,15 @@ footer{
 
 
 /*INICIO FORMULARIO*/
-.formulario{
+.formulario {
     width: 50%;
     align-items: center;
     margin: auto;
 }
 
 /* Ajuste para los inputs dentro de form-floating */
-.form-floating input,.form-floating textarea {
+.form-floating input,
+.form-floating textarea {
     border: 2px solid #6356fe;
     padding: 5px;
     margin-top: 10px;
@@ -1171,11 +1319,12 @@ footer{
 .form-check {
     margin: 10px 0;
 }
+
 /*FIN FORMULARIO*/
 
 
 /*INICIO UBICACION*/
-.donde-estamos{
+.donde-estamos {
     width: 100%;
     height: 80vh;
     display: flex;
@@ -1184,7 +1333,7 @@ footer{
     align-items: center;
 }
 
-.donde-estamos h4{
+.donde-estamos h4 {
     font-family: "Outfit", sans-serif;
     font-size: 3rem;
     font-weight: 600;
@@ -1194,32 +1343,36 @@ footer{
     text-align: center;
 }
 
-.donde-estamos iframe{
+.donde-estamos iframe {
     border-radius: 30px;
     filter: grayscale(100%);
 }
 
-.donde-estamos iframe:hover{
+.donde-estamos iframe:hover {
     filter: grayscale(0%);
 }
 
 
-.ubicacion{
+.ubicacion {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.ubicacion h5{
+.ubicacion h5 {
     color: #161616;
     font-family: "Outfit", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     font-style: normal;
     margin: 20px 20px;
-    
+
 }
+
 /*FIN UBICACION*/
-
-
+@media screen and (min-width: 350px) and (max-width: 1025px) {
+.donde-estamos iframe {
+    width: 350px;
+}
+}
