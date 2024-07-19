@@ -1137,6 +1137,7 @@ footer {
         font-size: 8rem;
     }
 
+
     .info-ro {
         display: flex;
         flex-direction: row;
@@ -1375,4 +1376,35 @@ footer {
 .donde-estamos iframe {
     width: 350px;
 }
+}
+
+@media screen and (min-width: 500px) and (max-width: 710px) {
+    .foto-ro img {
+        width: 400px;
+        height: 450px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    .foto-mar img {
+        width: 400px;
+        height: 450px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+    .foto-ro img {
+        width: 300px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    .foto-mar img {
+        width: 300px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
 }
