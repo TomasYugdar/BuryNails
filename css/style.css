@@ -899,7 +899,7 @@ footer {
     position: absolute;
     color: #eeeeee;
     font-family: "Outfit", sans-serif;
-    font-size: 70px;
+    font-size: 4.5rem;
     font-weight: 500;
     font-style: normal;
 }
@@ -1124,28 +1124,7 @@ footer {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 1510px) {
-    .quienessomos-ro {
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        text-align: center;
-        margin: 30px 0;
-    }
 
-    .perfil-ro h2 {
-        font-size: 8rem;
-    }
-
-
-    .info-ro {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-    }
-}
 
 /*PARTE MARTINA*/
 .quienessomos-mar {
@@ -1223,41 +1202,6 @@ footer {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 1510px) {
-    .quienessomos-mar {
-        flex-direction: column-reverse;
-        justify-content: space-evenly;
-        align-items: center;
-        text-align: center;
-        margin: 30px 0; 
-    }
-
-    .perfil-mar h3 {
-        color: #6356fe;
-        font-family: "Outfit", sans-serif;
-        font-size: 8rem;
-        text-align: center;
-    }
-
-    .info-mar {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    .perfil-mar p {
-        color: #161616;
-        font-family: "Outfit", sans-serif;
-        font-size: 1rem;
-        font-weight: 400;
-        font-style: normal;
-        padding: 12px;
-        margin: 0;
-        text-align: center;
-    }
-}
 
 /*FIN ROSARIO Y MARTINA*/
 
@@ -1340,7 +1284,7 @@ footer {
     font-weight: 600;
     font-style: normal;
     color: #161616;
-    margin-bottom: 30px;
+    margin: 20px 0;
     text-align: center;
 }
 
@@ -1372,28 +1316,149 @@ footer {
 }
 
 /*FIN UBICACION*/
-@media screen and (min-width: 350px) and (max-width: 1025px) {
+
+@media screen and (max-width: 1510px) {
+
+    .principal-trabajos h1{
+        font-size: 3.5rem;
+    }
+    
+    .quienessomos-ro {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .perfil-ro h2 {
+        font-size: 8rem;
+    }
+
+
+    .info-ro {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1510px) {
+    .quienessomos-mar {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        margin: 30px 0; 
+    }
+
+    .perfil-mar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .perfil-mar h3 {
+        font-size: 8rem;
+        text-align: center;
+    }
+
+    .info-mar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .perfil-mar p {
+        color: #161616;
+        font-family: "Outfit", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        font-style: normal;
+        padding: 12px;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 650px) and (max-width: 1025px) {
 .donde-estamos iframe {
-    width: 350px;
+    width: 600px;
+}
+}
+
+@media screen and (min-width: 350px) and (max-width: 650px) {
+    .donde-estamos iframe {
+        width: 350px;
 }
 }
 
 @media screen and (min-width: 500px) and (max-width: 710px) {
+
+    .principal-trabajos h1{
+        font-size: 3rem;
+    }
+
     .foto-ro img {
         width: 400px;
         height: 450px;
         object-fit: cover;
         border-radius: 30px;
     }
-    .foto-mar img {
+    .foto-mar  img {
         width: 400px;
         height: 450px;
         object-fit: cover;
         border-radius: 30px;
+    }
+
+    .perfil-ro h2 {
+        font-size: 6rem;
+    }
+
+    .perfil-ro p {
+        font-size: 0.9rem;
+    }
+
+    .perfil-mar h3 {
+        font-size: 6rem;
+    }
+
+    .perfil-mar p {
+        font-size: 0.9rem;
+    }
+
+    .ver-trabajos {
+        font-size: 1rem;
+        padding: 10px 30px;
+    }
+
+    .gift-card h4{
+        font-size: 2.5rem;    
+    }
+
+    .gift-card p{
+        font-size: 0.9rem;
+        padding: 12px;  
+    }
+
+    .donde-estamos h4 {
+        font-size: 2.5rem;
     }
 }
 
 @media screen and (min-width: 300px) and (max-width: 499px) {
+
+    .principal-trabajos h1{
+        font-size: 2.5rem;
+    }
+
     .foto-ro img {
         width: 300px;
         height: 350px;
@@ -1407,4 +1472,41 @@ footer {
         border-radius: 30px;
     }
 
+    .perfil-ro h2 {
+        font-size: 5rem;
+    }
+
+    .perfil-ro p {
+        font-size: 0.8rem;
+    }
+    
+    .perfil-mar h3 {
+        font-size: 5rem;
+    }
+    
+    .perfil-mar p {
+        font-size: 0.8rem;
+    }
+
+    .ver-trabajos {
+        font-size: 0.8rem;
+        padding: 10px 30px;
+    }
+
+    .gift-card h4{
+        font-size: 2rem;    
+    }
+
+    .gift-card p{
+        font-size: 0.8rem;
+        padding: 12px;  
+    }
+
+    .donde-estamos h4 {
+        font-size: 2rem;
+    }
+
+    .ubicacion h5{
+        font-size: 0.9rem;
+    }
 }
