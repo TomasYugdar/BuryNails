@@ -66,6 +66,8 @@ header nav div ul li a:hover {
     text-decoration-color: #6356fe;
     text-decoration-thickness: 2px;
     text-underline-offset: 8px;
+    transform: rotate(2deg);
+    transition: 0.3s;
 }
 
 .d-flex button {
@@ -83,6 +85,7 @@ header nav div ul li a:hover {
     border-color: #6356fe;
     padding: 10px 30px;
     margin: 40px;
+    transition: 0.3s;
 }
 
 .d-flex button:hover {
@@ -168,6 +171,7 @@ header nav div ul li a:hover {
     padding: 10px 50px;
     text-align: center;
     margin: 20px 0 0px 70px;
+    transition: 0.3s;
 }
 
 .principal a:hover {
@@ -265,6 +269,7 @@ header nav div ul li a:hover {
     justify-content: space-between;
     align-items: start;
     margin-bottom: 20px;
+    transition: 0.2s;
 }
 
 .servicios-esculpidas:hover {
@@ -283,6 +288,7 @@ header nav div ul li a:hover {
     justify-content: space-between;
     align-items: start;
     margin-bottom: 20px;
+    transition: 0.2s;
 }
 
 .servicios-capping:hover {
@@ -301,6 +307,7 @@ header nav div ul li a:hover {
     justify-content: space-between;
     align-items: start;
     margin-bottom: 20px;
+    transition: 0.2s;
 }
 
 .servicios-semipermanente:hover {
@@ -322,6 +329,7 @@ header nav div ul li a:hover {
     border-style: solid;
     border-color: #6356fe;
     padding: 10px 50px;
+    transition: 0.3s
 }
 
 .secundaria a:hover {
@@ -353,6 +361,7 @@ header nav div ul li a:hover {
     object-fit: cover;
     border-radius: 30px;
     filter: brightness(50%);
+    transition: 0.3s
 }
 
 .grid-galeria div img:hover {
@@ -504,6 +513,7 @@ header nav div ul li a:hover {
     border-color: #6356fe;
     padding: 10px 50px;
     margin-top: 20px;
+    transition: 0.3s
 }
 
 .banner-press a:hover {
@@ -522,6 +532,7 @@ footer {
     color: #2d2d2d;
     font-size: 30px;
     margin: 10px;
+    transition: 0.2s
 }
 
 .bi-instagram:hover {
@@ -533,6 +544,7 @@ footer {
     color: #2d2d2d;
     font-size: 30px;
     margin: 10px;
+    transition: 0.2s
 }
 
 .bi-tiktok:hover {
@@ -585,6 +597,7 @@ footer {
     display: flex;
     margin: 7px;
     font-size: 15 px;
+    transition: 0.2s
 }
 
 .menu-footer li a:hover {
@@ -1234,8 +1247,27 @@ footer {
     height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+}
+
+.minimalista h2 {
+    color: #161616;
+    font-family: "Outfit", sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.minimalista p {
+    color: #161616;
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .tajetas-minimalistas {
@@ -1243,7 +1275,129 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
 
+.card{
+    margin: 0 50px;
+    text-align: left;
+    transition: 0.2s;
+}
+
+.card:hover{
+    box-shadow:  2px 7px 11px 2px rgba(0,0,0,0.3);
+}
+
+.card img{
+    height: 16rem;
+    object-fit: cover;
+}
+
+.card h5{
+    color: #161616;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.card p{
+    color: #161616;
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.card a{
+    color: #e7e7e7;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #6356fe;
+    border-radius: 15px;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+.card a:hover{
+    background-color: #8f85ff;
+    border: none;   
+}
+
+.extreme {
+    width: 100%;
+    height: 80vh;
+    background-color: #6356fe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.extreme h2 {
+    color: #e7e7e7;
+    font-family: "Outfit", sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.extreme p {
+    color: #e7e7e7;
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.extreme .card {
+    background-color: #2d2d2d;
+}
+
+.extreme .card h5{
+    color: #e7e7e7;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.extreme .card p{
+    color: #e7e7e7;
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.extreme .card a{
+    color: #6356fe;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+.extreme .card a:hover{
+    background-color: #6356fe;
+    color: #e7e7e7;
+    border: none;   
 }
 
 /*FIN PRESSON*/
