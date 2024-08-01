@@ -1669,13 +1669,14 @@ footer {
     .card{
         margin: 30px 0;
         width: 18rem;
-    }
+        align-items: center;
+}
 
-.minimalista {
+    .minimalista {
     height: auto;
 }
 
-.minimalista h2 {
+    .minimalista h2 {
         color: #161616;
         font-family: "Outfit", sans-serif;
         font-size: 2rem;
@@ -1695,13 +1696,11 @@ footer {
         margin-bottom: 0;
     }
     
-    
     .extreme {
         height: auto;
     }
     
     .extreme h2 {
-        color: #161616;
         font-family: "Outfit", sans-serif;
         font-size: 2rem;
         font-weight: 600;
@@ -1710,12 +1709,10 @@ footer {
         margin-top: 2rem;
     }
     
-    
     .extreme p{
         margin: 0;
         text-align: center;
     }
-    
     
     .tajetas-minimalistas {
         display: flex;
