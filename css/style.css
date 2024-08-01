@@ -1314,6 +1314,7 @@ footer {
 .card a{
     color: #e7e7e7;
     display: inline-block;
+    border: none;
     text-decoration: none;
     font-family: "Outfit", sans-serif;
     font-size: 1rem;
