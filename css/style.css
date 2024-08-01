@@ -1279,6 +1279,7 @@ footer {
 }
 
 .card{
+    width: 20rem;
     margin: 0 50px;
     text-align: left;
     transition: 0.2s;
@@ -1405,11 +1406,338 @@ footer {
 
 /*MEDIA QUERYS INDEX*/
 
+@media screen and (max-width: 1280px) {
+    .card{
+        width: 16rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .card{
+        margin: 0 30px;
+        width: 14rem;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
+    
+    .catalogo-esculpidas {
+        min-height: 60vh;
+    }
+    
+    .foto-esculpidas img {
+        width: 450px;
+        height: 355px;
+    }
+
+    .foto-capping img {
+        width: 450px;
+        height: 355px;
+    }
+    .foto-semi img {
+        width: 450px;
+        height: 355px;
+    }
+    
+    .perfil-esculpidas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .perfil-esculpidas h2 {
+        font-size: 5rem;
+    }
+    
+    .perfil-esculpidas p {
+        padding: 1rem;
+    }
+    
+    .catalogo-capping {
+        min-height: 60vh;
+    }
+    
+    
+    .perfil-capping {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .perfil-capping h3 {
+        font-size: 5rem;
+    }
+
+    .perfil-capping p {
+        padding: 1rem;
+    }
+    
+    
+    .catalogo-semi {
+        min-height: 60vh;
+    }
+
+    
+    .perfil-semi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .perfil-semi h4 {
+        font-size: 3.5rem;
+        letter-spacing: -0.2rem;
+    }
+    
+    .perfil-semi p {
+        padding: 1rem;
+    }
+    
+    .interes-servicios h5{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+    
+    .catalogo-esculpidas {
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+}
+    
+    .foto-esculpidas img {
+        width: 450px;
+        height: 355px;
+    }
+
+    .foto-capping img {
+        width: 450px;
+        height: 355px;
+    }
+
+    .foto-semi img {
+        width: 450px;
+        height: 355px;
+    }
+    
+    
+    .perfil-esculpidas h2 {
+        font-size: 4rem;
+        letter-spacing: -0.2rem;
+    }
+    
+    .perfil-esculpidas p {
+        padding: 0 4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .catalogo-capping {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .perfil-capping h3 {
+        font-size: 4rem;
+        letter-spacing: -0.2rem;
+    }
+
+    .perfil-capping p {
+        padding: 0 4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .catalogo-semi {
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .perfil-semi h4 {
+        font-size: 3rem;
+        letter-spacing: -0.2rem;
+    }
+    
+    .perfil-semi p {
+        padding: 0 4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .interes-servicios h5{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 599px) {
+    
+    .catalogo-esculpidas {
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+}
+    
+    .foto-esculpidas img {
+        width: 330px;
+        height: 270px;
+    }
+
+    .foto-capping img {
+        width: 330px;
+        height: 270px;
+    }
+
+
+    .foto-semi img {
+        width: 330px;
+        height: 270px;
+    }
+    
+    
+    .perfil-esculpidas h2 {
+        font-size: 3rem;
+        letter-spacing: -0.2rem;
+        margin: 0;
+    }
+    
+    .perfil-esculpidas p {
+        margin-bottom: 1.5rem;
+    }
+    
+    .catalogo-capping {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .perfil-capping h3 {
+        font-size: 3rem;
+        letter-spacing: -0.2rem;
+        margin: 0;
+    }
+
+    .perfil-capping p {
+        margin-bottom: 1.5rem;
+    }
+    
+    .catalogo-semi {
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .perfil-semi h4 {
+        font-size: 2.6rem;
+        letter-spacing: -0.2rem;
+        margin: 0;
+    }
+    
+    .perfil-semi p {
+        margin-bottom: 1.5rem;
+    }
+    
+    .interes-servicios h5{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 860px) {
+    .card{
+        margin: 0 20px;
+        width: 12rem;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 760px) {
+    .card{
+        margin: 30px 0;
+        width: 18rem;
+    }
+
+.minimalista {
+    height: auto;
+}
+
+.minimalista h2 {
+        color: #161616;
+        font-family: "Outfit", sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .minimalista p {
+        color: #161616;
+        font-family: "Outfit", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    
+    .extreme {
+        height: auto;
+    }
+    
+    .extreme h2 {
+        color: #161616;
+        font-family: "Outfit", sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    
+    .extreme p{
+        margin: 0;
+        text-align: center;
+    }
+    
+    
+    .tajetas-minimalistas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card h5{
+        text-align: center;
+    }
+    
+    .card a{
+        margin-top: 1.5rem;
+    }
+}
+
+
 @media screen and (max-width: 1015px) {
     .principaldiv-dos h1 {
         font-size: 10rem;
     }
-
+    
     .principal h1 {
         color: #eeeeee;
         font-family: "Outfit", sans-serif;
@@ -1418,7 +1746,7 @@ footer {
         font-style: normal;
         margin: 0 20px;
     }
-
+    
     .principaldiv-uno img {
         width: 100%;
         height: 100%;
@@ -1426,19 +1754,19 @@ footer {
         border-radius: 15px;
         filter: saturate(0);
     }
-
+    
     .principaldiv-dos {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
+    
     .principal a {
         font-size: 1rem;
         margin: 20px 0;
     }
-
+    
     .principal {
         width: 100%;
         height: 80vh;
@@ -1447,7 +1775,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-
+    
 }
 
 @media screen and (max-width: 900px) {
@@ -1464,7 +1792,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-
+    
     .principal h1 {
         color: #eeeeee;
         font-family: "Outfit", sans-serif;
@@ -1473,7 +1801,7 @@ footer {
         font-style: normal;
         margin: 0 20px;
     }
-
+    
     .principaldiv-uno img {
         width: 100%;
         height: 100%;
@@ -1481,18 +1809,19 @@ footer {
         border-radius: 15px;
         filter: saturate(0);
     }
-
+    
     .principaldiv-dos {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
+    
     .principal a {
         font-size: 1rem;
         margin: 20px 0;
     }
+    
 }
 
 @media screen and (max-width: 780px) {
@@ -1507,7 +1836,7 @@ footer {
     .banner-press img {
         width: 85%;
     }
-
+    
     .banner-press div {
         width: auto;
         display: flex;
@@ -1515,7 +1844,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-
+    
     .banner-press h3 {
         font-family: "Outfit", sans-serif;
         font-weight: 600;
@@ -1526,7 +1855,7 @@ footer {
         text-align: center;
         line-height: 1;
     }
-
+    
     .banner-press p {
         font-family: "Outfit", sans-serif;
         font-weight: 400;
@@ -1536,7 +1865,7 @@ footer {
         margin-top: 10px;
         text-align: center;
     }
-
+    
     .banner-press a {
         list-style: none;
         color: #6356fe;
@@ -1553,7 +1882,7 @@ footer {
         padding: 10px 50px;
         margin-top: 20px;
     }
-
+    
 }
 
 @media screen and (min-width: 350px) and (max-width: 681px) {
@@ -1565,7 +1894,7 @@ footer {
         font-style: normal;
         margin: 0 20px;
     }
-
+    
     .principaldiv-uno img {
         width: 100%;
         height: 650px;
@@ -1573,19 +1902,19 @@ footer {
         border-radius: 15px;
         filter: saturate(0);
     }
-
+    
     .principaldiv-dos {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
+    
     .principal a {
         font-size: 1rem;
         margin: 20px 0;
     }
-
+    
     .principal {
         width: 100%;
         height: 80vh;
@@ -1594,7 +1923,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-
+    
 }
 
 @media screen and (max-width: 400px) {
@@ -1606,7 +1935,7 @@ footer {
         font-style: normal;
         margin: 0 20px;
     }
-
+    
     .principaldiv-uno img {
         width: 100%;
         height: 650px;
@@ -1614,19 +1943,19 @@ footer {
         border-radius: 15px;
         filter: saturate(0);
     }
-
+    
     .principaldiv-dos {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
+    
     .principal a {
         font-size: 1rem;
         margin: 20px 0;
     }
-
+    
     .principal {
         width: 100%;
         height: 80vh;
@@ -1635,7 +1964,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-
+    
 }
 
 @media screen and (min-width: 300px) and (max-width: 681px) {
@@ -1646,22 +1975,22 @@ footer {
         border-radius: 30px;
         position: initial;
     }
-
+    
     .servicios-esculpidas {
         width: 300px;
         height: 550px;
     }
-
+    
     .servicios-capping {
         width: 300px;
         height: 550px;
     }
-
+    
     .servicios-semipermanente {
         width: 300px;
         height: 550px;
     }
-
+    
     .servicios-elegir h3 {
         font-family: "Outfit", sans-serif;
         font-weight: 600;
@@ -1679,7 +2008,7 @@ footer {
 
 
 @media screen and (max-width: 1510px) {
-
+    
     .principal-trabajos h1{
         font-size: 3.5rem;
     }
@@ -1691,11 +2020,11 @@ footer {
         text-align: center;
         margin: 30px 0;
     }
-
+    
     .perfil-ro h2 {
         font-size: 8rem;
     }
-
+    
     
     .info-ro {
         display: flex;
@@ -1704,7 +2033,7 @@ footer {
         align-items: center;
         margin-top: 20px;
     }
-
+    
     .quienessomos-mar {
         flex-direction: column-reverse;
         justify-content: space-evenly;
@@ -1746,23 +2075,23 @@ footer {
 
 
 @media screen and (min-width: 650px) and (max-width: 1025px) {
-.donde-estamos iframe {
-    width: 600px;
-}
+    .donde-estamos iframe {
+        width: 600px;
+    }
 }
 
 @media screen and (min-width: 350px) and (max-width: 650px) {
     .donde-estamos iframe {
         width: 350px;
-}
+    }
 }
 
 @media screen and (min-width: 500px) and (max-width: 710px) {
-
+    
     .principal-trabajos h1{
         font-size: 3rem;
     }
-
+    
     .foto-ro img {
         width: 400px;
         height: 450px;
@@ -1775,48 +2104,48 @@ footer {
         object-fit: cover;
         border-radius: 30px;
     }
-
+    
     .perfil-ro h2 {
         font-size: 6rem;
     }
-
+    
     .perfil-ro p {
         font-size: 0.9rem;
     }
-
+    
     .perfil-mar h3 {
         font-size: 6rem;
     }
-
+    
     .perfil-mar p {
         font-size: 0.9rem;
     }
-
+    
     .ver-trabajos {
         font-size: 1rem;
         padding: 10px 30px;
     }
-
+    
     .gift-card h4{
         font-size: 2.5rem;    
     }
-
+    
     .gift-card p{
         font-size: 0.9rem;
         padding: 12px;  
     }
-
+    
     .donde-estamos h4 {
         font-size: 2.5rem;
     }
 }
 
 @media screen and (min-width: 300px) and (max-width: 499px) {
-
+    
     .principal-trabajos h1{
         font-size: 2.5rem;
     }
-
+    
     .foto-ro img {
         width: 300px;
         height: 350px;
@@ -1829,7 +2158,7 @@ footer {
         object-fit: cover;
         border-radius: 30px;
     }
-
+    
     .perfil-ro h2 {
         font-size: 5rem;
     }
@@ -1845,25 +2174,25 @@ footer {
     .perfil-mar p {
         font-size: 0.8rem;
     }
-
+    
     .ver-trabajos {
         font-size: 0.8rem;
         padding: 10px 30px;
     }
-
+    
     .gift-card h4{
         font-size: 2rem;    
     }
-
+    
     .gift-card p{
         font-size: 0.8rem;
         padding: 12px;  
     }
-
+    
     .donde-estamos h4 {
         font-size: 2rem;
     }
-
+    
     .ubicacion h5{
         font-size: 0.9rem;
     }
