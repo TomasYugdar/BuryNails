@@ -376,21 +376,6 @@ header nav div ul li a:hover {
     grid-column: span 2;
 }
 
-
-.banner-zapas {
-    width: 100%;
-    height: calc(100vh - 200px);
-    background-image: url(../img/zapaswebp.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 /*****COMIENZO DE TESTIMONIOSSSSSSS*****/
 
 .testimonios {
@@ -1656,6 +1641,59 @@ footer {
     .interes-servicios h5{
         font-size: 2rem;
     }
+
+    .turno-ro a{
+        font-size: 0.9rem;
+        padding: 10px 30px;
+    }
+    
+    .turno-mar a{
+        font-size: 0.9rem;
+        padding: 10px 30px;
+    }
+
+    .item-uno {
+        grid-column: span 4;
+    }
+    
+    .item-dos {
+        grid-column: span 4;
+    }
+
+    .item-tres {
+        grid-row: 3;
+        grid-column: span 4;
+    }
+    
+    .item-cuatro {
+        grid-column: span 4;
+    }
+    
+    .item-cinco {
+        grid-column: span 4;
+    }
+    
+    .item-seis {
+        grid-row: 6;
+        grid-column: span 4;
+    }
+
+    .item-siete {
+        grid-column: span 4;
+    }
+    
+    .item-ocho {
+        grid-column: span 4;
+    }
+    
+    .item-nueve {
+        grid-column: span 4;
+    }
+
+    .item-diez {
+        grid-column: span 4;
+    }
+
 }
 
 @media screen and (min-width: 760px) and (max-width: 860px) {
@@ -1922,6 +1960,31 @@ footer {
         align-items: center;
     }
     
+    .grid-galeria {
+        grid-auto-rows: 350px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        padding: 60px 50px;
+    }
+    
+    .item-uno-principal {
+        grid-column: span 3;
+    }
+    .item-dos-principal {
+        grid-column: span 3;
+    }
+    .item-tres-principal {
+        grid-column: span 3;
+    }
+    .item-cuatro-principal {
+        grid-column: span 3;
+    }
+
+    .banner-press img {
+        width: 85%;
+        height: 400px;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
