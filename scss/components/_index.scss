@@ -1,0 +1,346 @@
+.principal {
+    position: relative;
+    max-width: 95%;
+    height: 85vh;
+    margin: auto auto;
+    background-color: #e7e7e7;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    .principaldiv-uno {
+        position: relative;
+        border-radius: 30px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            display: block;
+            object-fit: cover;
+            border-radius: 15px;
+            filter: saturate(0);
+        }
+    }
+
+    h1 {
+        color: #eeeeee;
+        font-family: "Outfit", sans-serif;
+        font-size: 11.25rem;
+        font-weight: 500;
+        font-style: normal;
+        margin: 70px 0 20px 60px;
+
+        &:hover span {
+            color: #6356fe;
+        }
+    }
+
+    .principaldiv-dos {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        align-items: start;
+        justify-content: start;
+        text-align: start;
+        z-index: 1;
+        color: #e7e7e7;
+
+        a {
+            color: #e7e7e7;
+            display: block;
+            text-decoration: none;
+            font-family: "Outfit", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            font-style: normal;
+            background-color: #6356fe;
+            border-radius: 15px;
+            padding: 10px 50px;
+            text-align: center;
+            margin: 20px 0 0px 70px;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: #8f85ff;
+            }
+        }
+    }
+}
+
+.secundaria {
+    width: 100%;
+    height: auto;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+
+    .servicios {
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+
+        h2 {
+            font-family: "Outfit", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 3rem;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-family: "Outfit", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+        }
+    }
+
+    .servicios-elegir {
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+        gap: 30px;
+        margin-bottom: 50px;
+
+        h3 {
+            font-family: "Outfit", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 36px;
+            padding: 0 20px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            padding: 0 20px 20px 20px;
+        }
+
+        img {
+            width: 400px;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 30px;
+            position: initial;
+        }
+
+        .servicios-esculpidas,
+        .servicios-capping,
+        .servicios-semipermanente {
+            width: 400px;
+            height: 550px;
+            color: #161616;
+            background-color: #2d2d2d13;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            overflow: hidden;
+        }
+    }
+
+    a {
+        color: #e7e7e7;
+        text-decoration: none;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        background-color: #6356fe;
+        border-radius: 15px;
+        padding: 10px 50px;
+        text-align: center;
+        margin: 30px 0;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: #8f85ff;
+        }
+    }
+}
+
+.grid-galeria {
+    max-width: 100%;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 30px;
+
+    .grid-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 30px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 30px;
+        }
+    }
+}
+
+.testimonios {
+    max-width: 100%;
+    background: #e7e7e7;
+    color: #2d2d2d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    .tarjeta {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: start;
+
+        .card-cuerpo {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            align-content: center;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: start;
+            font-family: "Outfit", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+
+            img {
+                width: 200px;
+                height: 200px;
+                border-radius: 100%;
+                border: 5px solid #6356fe;
+                object-fit: cover;
+            }
+
+            .card-title {
+                margin-top: 15px;
+                font-size: 24px;
+            }
+
+            .card-text {
+                margin-top: 15px;
+                font-size: 18px;
+                text-align: center;
+            }
+
+            hr {
+                max-width: 100%;
+                height: 3px;
+                color: #6356fe;
+            }
+        }
+    }
+}
+
+.banner-press {
+    max-width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #2d2d2d13;
+    border-radius: 30px;
+    position: relative;
+
+    img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: saturate(0.5);
+        border-radius: 30px;
+    }
+
+    div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #2d2d2d13;
+        border-radius: 30px;
+        padding: 20px;
+        color: #e7e7e7;
+
+        p {
+            font-family: "Outfit", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-family: "Outfit", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #e7e7e7;
+            text-decoration: none;
+            font-family: "Outfit", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 24px;
+            background-color: #6356fe;
+            border-radius: 15px;
+            padding: 10px 50px;
+            text-align: center;
+            margin-top: 20px;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: #8f85ff;
+            }
+        }
+    }
+}

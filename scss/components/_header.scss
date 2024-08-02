@@ -1,0 +1,73 @@
+header {
+    width: 100%;
+    background-color: #e7e7e7;
+    padding: 10px 40px 0;
+
+    img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    nav {
+        .container-fluid {
+            ul {
+                text-align: center;
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    margin-right: 20px;
+                    font-size: 16px;
+
+                    a {
+                        text-decoration: none;
+                        color: #161616;
+                        font-family: "Outfit", sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        font-style: normal;
+                        margin: 0 10px 20px 10px;
+
+                        &:hover {
+                            text-decoration: underline;
+                            text-decoration-color: #6356fe;
+                            text-decoration-thickness: 2px;
+                            text-underline-offset: 8px;
+                            transform: rotate(2deg);
+                            transition: 0.3s;
+                        }
+                    }
+                }
+            }
+
+            .d-flex {
+                button {
+                    list-style: none;
+                    color: #6356fe;
+                    text-decoration: none;
+                    font-family: "Outfit", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: normal;
+                    background-color: #7acc0000;
+                    border-radius: 15px;
+                    border: 2px solid #6356fe;
+                    padding: 10px 30px;
+                    margin: 40px;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: #e7e7e7;
+                        background-color: #6356fe;
+                    }
+                }
+            }
+        }
+    }
+}

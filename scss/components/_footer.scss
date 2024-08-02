@@ -1,0 +1,77 @@
+footer {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 0;
+
+    .redes {
+        a {
+            color: #2d2d2d;
+            font-size: 30px;
+            margin: 10px;
+            transition: 0.2s;
+
+            &:hover {
+                color: #6356fe;
+                font-size: 30px;
+            }
+
+            i.bi-instagram,
+            i.bi-tiktok {
+                font-size: inherit;
+                color: inherit;
+                margin: inherit;
+                transition: inherit;
+            }
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+            background-color: #7e7e7e;
+            border-radius: 40%;
+            display: inline-block;
+            margin: 15px;
+            padding: 10px;
+            transition: opacity 0.2s;
+
+            &:hover {
+                opacity: 50%;
+            }
+        }
+    }
+
+    .logo-footer {
+        img {
+            width: 150px;
+            height: 150px;
+            text-align: center;
+        }
+    }
+
+    .menu-footer {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        li {
+            a {
+                text-decoration: none;
+                color: #161616;
+                font-family: "Outfit", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                display: flex;
+                margin: 7px;
+                font-size: 15px;
+                transition: color 0.2s;
+
+                &:hover {
+                    color: #8f85ff;
+                }
+            }
+        }
+    }
+}

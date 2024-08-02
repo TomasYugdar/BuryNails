@@ -1,0 +1,200 @@
+// Section: Quiénes Somos (Rosario)
+.quienessomos-ro {
+    @include flex-center(row, center, space-evenly);
+    width: 100%;
+    min-height: 80vh;
+    background-color: $secondary-color;
+    margin: 30px 0;
+}
+
+.foto-ro {
+    img {
+        width: 600px;
+        height: 550px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+}
+
+.perfil-ro {
+    @include flex-center(column, center, flex-start);
+
+    h2 {
+        color: $primary-color;
+        font-family: "Outfit", sans-serif;
+        font-size: 12rem;
+        font-weight: 600;
+        letter-spacing: -0.5rem;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    p {
+        color: $text-color;
+        font-family: "Outfit", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 12px;
+        margin: 0;
+    }
+
+    .info-ro {
+        @include flex-center(row, center, flex-start);
+        margin-top: 20px;
+
+        a {
+            @extend %botones;
+
+            &:hover {
+                background-color: $hover-color;
+            }
+        }
+    }
+}
+
+// Section: Quiénes Somos (Martina)
+.quienessomos-mar {
+    @include flex-center(row, center, space-evenly);
+    width: 100%;
+    min-height: 80vh;
+    background-color: $secondary-color;
+    margin: 30px 0;
+}
+
+.foto-mar {
+    img {
+        width: 600px;
+        height: 550px;
+        object-fit: cover;
+        border-radius: 30px;
+        object-position: top;
+    }
+}
+
+.perfil-mar {
+    @include flex-center(column, center, flex-end);
+
+    h3 {
+        color: $primary-color;
+        font-family: "Outfit", sans-serif;
+        font-size: 12rem;
+        font-weight: 600;
+        letter-spacing: -0.5rem;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    p {
+        color: $text-color;
+        font-family: "Outfit", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 12px;
+        margin: 0;
+        text-align: end;
+    }
+
+    .info-mar {
+        @include flex-center(row, center, flex-end);
+        width: 100%;
+        margin-top: 20px;
+
+        a {
+            @extend %botones;
+
+            &:hover {
+                background-color: $hover-color;
+            }
+        }
+    }
+}
+
+// Section: Gift Card
+.gift-card {
+    text-align: center;
+
+    h4 {
+        color: $text-color;
+        font-family: "Outfit", sans-serif;
+        font-size: 3rem;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+
+    p {
+        color: $text-color;
+        font-family: "Outfit", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+}
+
+// Section: Formulario
+.formulario {
+    width: 50%;
+    margin: auto;
+
+    .form-floating {
+        margin-top: 10px;
+
+        input,
+        textarea {
+            border: 2px solid $primary-color;
+            padding: 5px;
+            border-radius: $border-radius;
+            background-color: rgba(255, 255, 255, 0.42);
+        }
+
+        label {
+            position: absolute;
+            background: rgba(255, 255, 255, 0);
+            padding: 0 5px;
+            font-family: "Outfit", sans-serif;
+            font-size: 1rem;
+            color: $primary-color;
+        }
+    }
+
+    .form-check {
+        margin: 10px 0;
+    }
+}
+
+// Section: Dónde Estamos
+.donde-estamos {
+    @include flex-center(column, center, center);
+    width: 100%;
+    height: 80vh;
+
+    h4 {
+        font-family: "Outfit", sans-serif;
+        font-size: 3rem;
+        font-weight: 600;
+        color: $text-color;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    iframe {
+        border-radius: 30px;
+        filter: grayscale(100%);
+        transition: 0.3s;
+
+        &:hover {
+            filter: grayscale(0%);
+        }
+    }
+
+    .ubicacion {
+        @include flex-center(row, center, center);
+
+        h5 {
+            color: $text-color;
+            font-family: "Outfit", sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            margin: 20px 20px;
+        }
+    }
+}
