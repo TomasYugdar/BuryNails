@@ -668,6 +668,7 @@ footer {
     border-style: solid;
     border-color: #6356fe;
     padding: 10px 50px;
+    transition: 0.3s;
 }
 
 .turno-ro a:hover {
@@ -714,6 +715,7 @@ footer {
     border-color: #6356fe;
     padding: 10px 50px;
     margin-bottom: 20px;
+    transition: 0.3s;
 }
 
 .turno-mar a:hover {
@@ -837,6 +839,7 @@ footer {
     border-radius: 15px;
     padding: 10px 50px;
     text-align: center;
+    transition: 0.3s;
 }
 
 .ver-trabajos:hover {
@@ -913,6 +916,7 @@ footer {
     border-radius: 15px;
     padding: 10px 50px;
     text-align: center;
+    transition: 0.3s;
 }
 
 .ver-trabajos:hover {
@@ -1017,6 +1021,7 @@ footer {
 .donde-estamos iframe {
     border-radius: 30px;
     filter: grayscale(100%);
+    transition: 0.3s;
 }
 
 .donde-estamos iframe:hover {
@@ -1217,7 +1222,7 @@ footer {
     border-radius: 15px;
     margin-top: 15px;
     padding: 10px 50px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .interes-servicios a:hover{
