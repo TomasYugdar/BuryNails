@@ -20,6 +20,14 @@ $secondary-color: #e7e7e7;
 $text-color: #161616;
 $hover-color: #8f85ff;
 $border-radius: 15px;
+$card-width-small: 12rem;
+$card-width-medium: 14rem;
+$card-width-large: 16rem;
+$img-width-large: 450px;
+$img-height-large: 355px;
+$img-width-small: 330px;
+$img-height-small: 270px;
+$font-family-outfit: "Outfit", sans-serif;
 
 // Mixins
 @mixin flex-center($direction: row, $align: center, $justify: center) {
@@ -28,6 +36,12 @@ $border-radius: 15px;
     align-items: $align;
     justify-content: $justify;
 }
+
+@mixin img-dimensions($width, $height) {
+    width: $width;
+    height: $height;
+}
+
 
 // Extend
 %botones {

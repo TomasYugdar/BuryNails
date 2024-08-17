@@ -1,0 +1,338 @@
+
+@media screen and (max-width: 1280px) {
+    .card {
+        width: $card-width-large;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .card {
+        margin: 0 30px;
+        width: $card-width-medium;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
+    .catalogo-esculpidas,
+    .catalogo-capping,
+    .catalogo-semi {
+        min-height: 60vh;
+    }
+
+    .foto-esculpidas img,
+    .foto-capping img,
+    .foto-semi img {
+        @include img-dimensions($img-width-large, $img-height-large);
+    }
+
+    .perfil-esculpidas,
+    .perfil-capping,
+    .perfil-semi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .perfil-esculpidas h2,
+    .perfil-capping h3 {
+        font-size: 5rem;
+    }
+
+    .perfil-semi h4 {
+        font-size: 3.5rem;
+        letter-spacing: -0.2rem;
+    }
+
+    .perfil-esculpidas p,
+    .perfil-capping p,
+    .perfil-semi p {
+        padding: 1rem;
+    }
+
+    .interes-servicios h5 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+    .catalogo-esculpidas,
+    .catalogo-capping,
+    .catalogo-semi {
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foto-esculpidas img,
+    .foto-capping img,
+    .foto-semi img {
+        @include img-dimensions($img-width-large, $img-height-large);
+    }
+
+    .perfil-esculpidas h2,
+    .perfil-capping h3 {
+        font-size: 4rem;
+        letter-spacing: -0.2rem;
+    }
+
+    .perfil-semi h4 {
+        font-size: 3rem;
+        letter-spacing: -0.2rem;
+    }
+
+    .perfil-esculpidas p,
+    .perfil-capping p,
+    .perfil-semi p {
+        padding: 0 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .interes-servicios h5 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 599px) {
+    .catalogo-esculpidas,
+    .catalogo-capping,
+    .catalogo-semi {
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foto-esculpidas img,
+    .foto-capping img,
+    .foto-semi img {
+        @include img-dimensions($img-width-small, $img-height-small);
+    }
+
+    .perfil-esculpidas h2,
+    .perfil-capping h3,
+    .perfil-semi h4 {
+        font-size: 3rem;
+        letter-spacing: -0.2rem;
+        margin: 0;
+    }
+
+    .perfil-esculpidas p,
+    .perfil-capping p,
+    .perfil-semi p {
+        margin-bottom: 1.5rem;
+    }
+
+    .interes-servicios h5 {
+        font-size: 2rem;
+    }
+
+    .turno-ro a,
+    .turno-mar a {
+        font-size: 0.9rem;
+        padding: 10px 30px;
+    }
+
+    .item-uno,
+    .item-dos,
+    .item-cuatro,
+    .item-cinco,
+    .item-siete,
+    .item-ocho,
+    .item-nueve,
+    .item-diez {
+        grid-column: span 2;
+    }
+
+    .item-tres,
+    .item-seis {
+        grid-row: 3;
+        grid-column: span 2;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 860px) {
+    .card {
+        margin: 0 20px;
+        width: $card-width-small;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 760px) {
+    .card {
+        margin: 30px 0;
+        width: 18rem;
+        align-items: center;
+    }
+
+    .minimalista,
+    .extreme {
+        height: auto;
+    }
+
+    .minimalista h2,
+    .extreme h2 {
+        color: $primary-color;
+        font-family: $font-family-outfit;
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .minimalista p,
+    .extreme p {
+        color: $primary-color;
+        font-family: $font-family-outfit;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .tajetas-minimalistas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card h5 {
+        text-align: center;
+    }
+
+    .card a {
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    .principaldiv-dos h1 {
+        font-size: 10rem;
+    }
+
+    .principal h1 {
+        color: $secondary-color;
+        font-family: $font-family-outfit;
+        font-size: 8rem;
+        font-weight: 500;
+        margin: 0 20px;
+    }
+
+    .principaldiv-uno img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: $border-radius;
+        filter: saturate(0);
+    }
+
+    .principaldiv-dos,
+    .principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .principal a {
+        font-size: 1rem;
+        margin: 20px 0;
+    }
+
+    .principal {
+        width: 100%;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .testimonios {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .principal {
+        height: 60vh;
+    }
+
+    .principal h1 {
+        color: $secondary-color;
+        font-family: $font-family-outfit;
+        font-size: 8rem;
+        font-weight: 500;
+        margin: 0 20px;
+    }
+
+    .principaldiv-uno img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: $border-radius;
+        filter: saturate(0);
+    }
+
+    .principaldiv-dos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .principal a {
+        font-size: 1rem;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .banner-press {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0;
+    }
+
+    .banner-press img {
+        width: 85%;
+    }
+
+    .banner-press div {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-press h3 {
+        font-family: $font-family-outfit;
+        font-weight: 600;
+        font-size: 4rem;
+        color: $primary-color;
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .banner-press p {
+        font-family: $font-family-outfit;
+        font-weight: 400;
+        font-size: 1rem;
+        color: $primary-color;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .banner-press a {
+        list-style: none;
+        color: $primary-color;
+        font-weight: 500;
+        font-family: $font-family-outfit;
+    }
+}
